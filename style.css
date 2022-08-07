@@ -11,9 +11,11 @@ html{
 body
 {
     font-family: 'Poppins', sans-serif;
-    background:#fffdd0;
+    background:#fff;
+    overflow-x: hidden;
    
 }
+/* ================ Header Styling Start========== */
 .header{
     position: fixed;
     width: 100%;
@@ -63,4 +65,69 @@ body
     background-color: #fff;
     border-radius: 12px;
 }
+/* ============ Header Styling End================ */
 
+/* =============  hero Styling Start =============== */
+#Hero{
+    height: 100vh;
+    background: url(/Images/pexels-wouter-de-jong-571169.jpg);
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+}
+#Hero .hero-container{
+    margin:auto;
+   width: 90%;
+   height: 89%;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-container .hero-content .First{
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.hero-container .hero-content .name{
+    font-size: 3.5rem;
+    font-weight:500;
+    text-transform: capitalize;
+}
+.hero-container .hero-content .field{
+    font-size: 2.5rem;
+    font-weight:500;
+    text-transform: capitalize;
+    color: #FA8072;
+}
+.hero-container .hero-content  .address{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #000; }
+
+.hero-container .btn{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1rem;
+    background:#FA8072;
+    color: #fff;
+    width:12rem;
+   padding: 1em;
+   border-radius: 0.8rem;
+    text-align: center;
+    margin-top: 5px;
+    transition: all 1s ease;
+}
+.btn:hover{
+    background: #fff;
+    color: purple;
+    border-radius: 4rem;
+    border: 1px solid crimson;
+    transform: scale(1.2,1.3);
+}
+
+
+/* =============  hero Styling End =============== */
